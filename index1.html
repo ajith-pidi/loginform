@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <tittle>
+    </tittle>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aqua;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form{
+            width: 350px;
+            height: 400px;
+            background-color: rgb(234, 220, 220);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+            padding: bottom 50px;;
+        }
+        .u1 img{
+            width: 50px;
+        }
+        .f1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 5px 0;
+        }
+        .f1 input{
+            width: 100%;
+            outline:none;
+            border-color: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        input:focus{
+            border-color: aqua;
+        }
+        button{
+            border: none;
+            outline: none;
+            background-color:aqua;
+            padding: 5px;
+            color: aqua;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="u1">
+            <img src="sec.jpeg" alt="image not found">
+        </div>
+        <div class="f1">
+            <label>email</label>
+            <input type="email" placeholder="email">
+        </div>
+        <div class="f1">
+            <label>Password</label>
+            <input type="password" placeholder="password">
+        </div>
+        <input type="submit" name="login">
+    </div>
+</body>
+        
